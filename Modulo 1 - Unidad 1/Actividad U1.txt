@@ -6,5 +6,6 @@ git - GitHub
 - Crear un repositorio
 - Crear cuanta en GitHub
 
-
+****************************
+Modificacion del archivo txt
 
