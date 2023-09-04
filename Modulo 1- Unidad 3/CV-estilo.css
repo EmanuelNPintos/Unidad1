@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(255, 255, 255);
+    /*este es un comentario*/
+    text-align: center;
+    background-color: black;
+}
+
+.destacado {
+    color: blanchedalmond;
+    background-color: brown;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#caja {
+    
+    text-align: left;
+    color: blanchedalmond;
+    background-color: brown;
+    width: 380px;
+    height: 180px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+#caja2 p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#informacion {
+    text-align: justify;
+    border: 2px dotted black;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 33px;
+    -webkit-column-gap: 33px;
+    -moz-column-gap: 33px;
+    column-rule: 4px dotted #000000;
+    -webkit-column-rule: 4px dotted #000000;
+    -moz-column-rule: 4px dotted #000000;
+}
+
+#caja3 {
+    background: rgb(193, 252, 252);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+body {
+    
+    background: #73b8ff;
+    background: linear-gradient(181deg, #73b8ff 0%, #ffffff 80%);
+    background: -webkit-linear-gradient(181deg, #73b8ff 0%, #ffffff 80%);
+    background: -moz-linear-gradient(181deg, #73b8ff 0%, #ffffff 80%);
+}
+
+img {
+    border-radius: 89px 89px 89px 89px;
+}
