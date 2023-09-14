@@ -1,0 +1,29 @@
+<!-- Ejercicio 2
+Haciendo uso de los bucles, recorrer un array de números y determinar cual es el mayor -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+       const miArray = [10,50,100,12,90,102,88]
+       let mayor = 0;
+      
+        for (let i = 0; i < miArray.length; i++) {
+           document.write(` - ${miArray[i]} <br> `)
+           
+           if(miArray[i] > mayor){
+            mayor = miArray[i];
+           } 
+        }
+
+    document.write(`El numero mayor es ${mayor} `)
+    </script>
+    
+</body>
+</html>
