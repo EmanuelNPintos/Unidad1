@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambia Fondo</title>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="cuadrado rojo" onclick="cambiarFondo('red')"> </div>
+        <div class="cuadrado azul" onclick="cambiarFondo('blue')"> </div>
+        <div class="cuadrado amarillo" onclick="cambiarFondo('yellow')"> </div>
+        <div class="cuadrado naranja" onclick="cambiarFondo('orangered')"> </div>
+        <div class="cuadrado verde" onclick="cambiarFondo('green')"> </div>
+        <div class="cuadrado violeta" onclick="cambiarFondo('blueviolet')"> </div>
+</div>
+
+    <style>
+        .principal {
+            display:inline;
+        }
+        .cuadrado{
+            height: 150px;
+            width: 150px;
+        }
+        .rojo{
+            background-color: red;
+        }
+        .azul{
+            background-color: blue;
+        }
+        .amarillo{
+            background-color: yellow;
+        }
+        .naranja{
+            
+            background-color: orangered;
+        }
+        .verde{
+            background-color: green;
+        }
+        .violeta{
+            background-color:blueviolet;
+        }
+       
+    </style>
+
+    <script>
+function cambiarFondo(color){
+    document.querySelector("body").style.background = color;
+}
+    </script>
+
+
+</body>
+</html>
