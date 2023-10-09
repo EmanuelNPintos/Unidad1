@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurguerMania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="burguer.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/burger logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                BurguerMania
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conocenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Barra de navegacion -->
+
+    <div class="container-fluid">
+        <div id="home" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>Titulo Principal</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, alias fuga ex esse rerum tenetur blanditiis enim
+                    ab quia error delectus ullam autem adipisci suscipit dolores nobis sed doloribus omnis!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row my-0" style="background-color: rgb(41, 41, 41);">
+        <div id="novedades" class="col-md-3 offset-md-1 py-3">
+            <h2 id="NH">Nuestras Hamburguesas</h2>
+            <ul class="lista-novedades">
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1"><img src="img/5193124.jpg"> Cheeseburger</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img src="img/5193124.jpg"> Bacon Cheese Burger</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3"><img src="img/5193124.jpg"> Eggsplotion</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4"><img src="img/5193124.jpg"> Burger Veggie</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5"><img src="img/5193124.jpg"> Chicken Club</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Burguer1 -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Cheeseburger</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>160 grs. de carne, lechuga, Cheddar y tomate.</h3>
+                    <p>Incluye porcion de papas</p>
+                    <img src="img/1_Cheese_Burger_B.jpg" width="450" height="450">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Burguer2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Bacon Cheese Burger</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>160 grs. de carne, panceta ahumada y Cheddar.</h3>
+                    <p>Incluye porcion de papas</p>
+                    <img src="img/2_Bacon_Cheese_Burger_B.jpg" width="450" height="450">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Burguer3 -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Eggsplotion</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>160 grs. de carne, Cheddar, panceta ahumada y huevo frito.</h3>
+                    <p>Incluye porcion de papas</p>
+                    <img src="img/9_Eggsplotion_B.jpg" width="450" height="450">
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Burguer4 -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Burger Veggie</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>140 grs. de garbanzaos, lechuga, American Cheddar y tomate</h3>
+                    <p>Incluye porcion de papas</p>
+                    <img src="img/17_Veggie_Burger_B.jpg" width="450" height="450">
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Burguer5 -->
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Chicken Club</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>125 grs. de pollo rebozado, lechuga, tomate, American Cheddar y panceta ahumada.</h3>
+                    <p>Incluye porcion de papas</p>
+                    <img src="img/14_Chicken_Club_B.jpg" width="450" height="450">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="row my-0" style="background-color: rgb(41, 41, 41);">
+        <div id="" class="col-md-3 offset-md-1 py-3">
+            <h2 id="NH">Nuestro Local</h2> -->
+
+    <footer>
+        <p class="text-center">Pagina Diseñada por: Emanuel Pintos</p>
+    </footer>
+</body>
+</html>
